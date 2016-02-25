@@ -11,6 +11,6 @@ export PATH=$PATH:$HOME/terraform
 
 # download terraform        
 cd $HOME/terraform 
-wget https://dl.bintray.com/mitchellh/terraform/terraform_${WERCKER_TERRAFORM_INSTALL_VERSION}_linux_amd64.zip
+wget https://releases.hashicorp.com/terraform/${WERCKER_TERRAFORM_INSTALL_VERSION}/terraform_${WERCKER_TERRAFORM_INSTALL_VERSION}_linux_amd64.zip
 unzip terraform_${WERCKER_TERRAFORM_INSTALL_VERSION}_linux_amd64.zip 
 rm terraform_${WERCKER_TERRAFORM_INSTALL_VERSION}_linux_amd64.zip 
