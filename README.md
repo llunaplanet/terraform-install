@@ -9,6 +9,6 @@ Add ${terraform-version}.(ex: 0.6.2)
 ```yaml
 build:
   steps:
-    - inokappa/terraform-install:
+    - capgemini/terraform-install:
         version: ${terraform-vresion}
 ```
