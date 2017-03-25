@@ -1,14 +1,14 @@
 ## terraform-install for wercker step
 
-terraform install and ruby install for wercker step.
+terraform install with support for wercker cache between builds
 
 ### how to use
 
-Add ${terraform-version}.(ex: 0.6.2)
+Add ${terraform-version}.(ex: 0.9.1)
 
 ```yaml
 build:
   steps:
-    - capgemini/terraform-install:
-        version: ${terraform-vresion}
+    - davidlluna/terraform-install:
+        version: ${terraform-version}
 ```
